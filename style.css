@@ -1,15 +1,15 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base styling */
+
 body {
   font-family: sans-serif;
   background-color: white;
-  color: #001f3f; /* Navy */
+  color: #001f3f; 
   padding: 20px;
 }
 
@@ -18,16 +18,16 @@ body {
   margin: auto;
 }
 
-/* Header and footer */
+
 header,
 footer {
-  background-color: #001f3f; /* Navy */
+  background-color: #001f3f; 
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-/* Layout structure */
+
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -49,7 +49,7 @@ footer {
   padding: 20px;
 }
 
-/* Responsive stack on small screens */
+
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
